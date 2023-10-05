@@ -1,0 +1,53 @@
+body {
+  font-family: tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: linen; /*Color de fondo de la pagina completa*/
+}
+
+/* color de fondo del menu horizontal  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  color: greenyellow;
+}
+
+.logo img {
+  max-width: 180px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #070744; /*Color de letras del menú horizontal*/
+  text-decoration: none;
+}
+
+nav a:hover { /*Al momento de seleccionar cada nav se pone una línea abajo*/
+  text-decoration: underline;
+}
+
+.contenido {
+  padding: 20px;
+  color: #070744;
+}
+
+footer {
+  background-color: #FFFAFA;
+  text-align: center;
+  padding: 10px;
+  color: #070744;
+}
+
