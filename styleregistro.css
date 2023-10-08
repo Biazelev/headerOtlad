@@ -1,10 +1,38 @@
+@keyframes colors{
+	0% { background-color:lavender; }
+	20% { background-color:mistyrose; }
+	40% { background-color:lightcyan; }
+	60% { background-color:honeydew; }
+	80% { background-color:lemonchiffon;}
+	100% { background-color:papayawhip; }
+
+}
+
+body{
+	animation-name: colors;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: ;
+	font-family: "tahoma";
 }
 
 form{
-	border: 2px red solid;
+	border-style: solid;
+	border-color: darkslategray;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+input{
+	display: block;
 }
